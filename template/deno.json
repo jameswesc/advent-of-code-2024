@@ -1,0 +1,15 @@
+{
+    "tasks": {
+        "part-one": "deno run --allow-read partOne.ts",
+        "part-two": "deno run --allow-read partTwo.ts",
+        "test-part-one": "deno test --watch partOne.ts",
+        "test-part-two": "denon test --watch partTwo.ts",
+        "bench-part-one": "deno bench --allow-read partOne.ts"
+    },
+    "imports": {
+        "@std/assert": "jsr:@std/assert@1"
+    },
+    "fmt": {
+        "indentWidth": 4
+    }
+}
