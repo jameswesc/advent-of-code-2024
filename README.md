@@ -25,3 +25,16 @@ benchmark         time/iter (avg)        iter/s      (min … max)           p75
 Day 02 - Part 1          516.2 µs         1,937 (468.3 µs … 641.6 µs) 527.9 µs 613.4 µs 634.1 µs
 Day 02 - Part 2          887.0 µs         1,127 (814.2 µs …   1.2 ms) 905.3 µs   1.1 ms   1.1 ms
 ```
+
+## Day 03
+```
+CPU | Apple M2
+Runtime | Deno 2.1.2 (aarch64-apple-darwin)
+
+file:///Users/jgregory/Code/advent-of-code-2024/day-03/bench.ts
+
+benchmark         time/iter (avg)        iter/s      (min … max)           p75      p99     p995
+----------------- ----------------------------- --------------------- --------------------------
+Day XX - Part 1           94.2 µs        10,620 ( 87.4 µs … 511.1 µs)  92.2 µs 209.0 µs 217.7 µs
+Day XX - Part 2           52.3 µs        19,120 ( 46.2 µs … 195.6 µs)  51.9 µs  85.5 µs 160.7 µs
+```
